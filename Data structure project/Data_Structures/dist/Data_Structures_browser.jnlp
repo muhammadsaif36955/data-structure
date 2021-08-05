@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Data_Structures_browser.jnlp">
+  <information>
+    <title>Data_Structures</title>
+    <vendor>hamza</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Data_Structures.jar" size="38481" download="eager" />
+    <jar href="lib\beansbinding-1.2.1.jar" size="631289" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="Data_Structures.Index"  name="Data_Structures" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
